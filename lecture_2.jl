@@ -110,4 +110,4 @@ print(subtypes(Any))
 sqrt(sin(a+b+c))
 (sqrt ∘ sin ∘ +)(a,b,c) # \circ for ∘
 
-
+# arithmetic operations on real numbers
