@@ -1,1 +1,1 @@
-# Julia-machine-learning-course
+Julia machine learning course
