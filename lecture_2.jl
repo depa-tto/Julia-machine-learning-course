@@ -111,3 +111,45 @@ sqrt(sin(a+b+c))
 (sqrt ∘ sin ∘ +)(a,b,c) # \circ for ∘
 
 # arithmetic operations on real numbers
+(p+q)
+(p-q)
+(p*q)
+(p/q)
+(p^2)
+(p^q)
+
+
+# assignment operator 
+x = 10
+
+x += 2
+x -= 2
+x *= 2
+x /= 2
+x %= 5
+
+
+# complex number
+c1 = 4+2im
+typeof(c1)
+
+real(c1)
+imag(c1)
+conj(c1)
+abs(c1)
+angle(c1)
+
+
+c2 = complex(3.5,5)
+typeof(c2)
+
+
+c3 = c1 + c2
+c4 = c1 - c2
+c5 = c1 * c2
+c6 = c1 / c2
+
+
+c7 = 1 + √3im
+c8 = c7 ^ 6
+c9 = c7 ^ c1
